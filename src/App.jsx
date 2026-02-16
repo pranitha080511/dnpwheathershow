@@ -10,9 +10,9 @@ import Footer from "./components/Footer";
 import DashboardNavbar from "./components/DashboardNavbar";
 import DashboardFooter from "./components/DashboardFooter";
 
-import Home from "./Pages/Home";
-import Auth from "./Pages/Auth";
-import Dashboard from "./Pages/Dashboard";
+import Home from "./pages/Home";
+import Auth from "./pages/Auth";
+import Dashboard from "./pages/Dashboard";
 
 const Layout = ({ children }) => {
   const { pathname } = useLocation();
